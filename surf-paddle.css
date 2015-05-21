@@ -10,10 +10,10 @@ a {
 
 .container {
 	margin: 1px;
+	font-family: "Open Sans";
 }
 
 .header {
-	font-family: "Open Sans";
 	font-weight: 300;
 	height: 60vh;
 	width: 100%;
@@ -69,25 +69,36 @@ a {
 
 /*Start of Body*/
 
-	/*Left*/
-
 .body {
-	font-family: "Open Sans";
+	border-bottom: solid 3px rgb(231, 237, 239);
 }
+
+	/*Left*/
 
 .left {
 	width: 50%;
 	margin-left: 120px;
+	display: inline-block;
+	padding: 60px 0px;
 }
 
 .title-name {
-	font-size: 40px;
+	font-size: 45px;
 	text-transform: uppercase;
+	font-family: "Oswald";
 }
 
 .author {
 	display: inline-block;
 	color: rgb(0, 96, 176);
+	line-height: 40px;
+	text-align: center;
+}
+
+.author img {
+	width: 40px;
+	height: auto;
+
 }
 
 .date {
@@ -107,3 +118,125 @@ a {
 	padding-left: 10px;
 	margin: 20px 10px;
 }
+
+.read {
+	display: inline-block;
+}
+
+.read-gray {
+	display: inline-block;
+	background: rgb(160, 179, 192);
+
+}
+
+.read-gray img {
+	background: rgb(92, 104, 111);
+	height: 31px;
+	width: auto;
+	padding: 8px;
+}
+
+.read-blue {
+	display: inline-block;
+	background: rgb(0, 105, 182);
+}
+
+.read-blue img {
+	background: rgb(0, 50, 83);
+}
+
+	/*Right*/
+
+.right {
+	width: 30%;
+	display: inline-block;
+	position: absolute;
+	right: 10px;
+	margin: 10px;
+	padding: 70px 10px;
+}
+
+.icon {
+	text-align: center;
+}
+
+.author-name {
+	text-align: center;
+}
+
+.social-media {
+	text-align: center;
+}
+
+.twitter {
+	display: inline-block;
+}
+
+.facebook {
+	display: inline-block;
+}
+
+.instagram {
+	display: inline-block;
+}
+
+.ad-picture {
+	margin-top: 70px;
+	margin-bottom: 50px;
+}
+
+.sidebar-heading {
+	font-size: 16px;
+}
+
+.sidebar-text {
+	font-size: 12px;
+}
+
+
+/*Footer*/
+
+
+.footer-header {
+	text-align: center;
+	font-size: 70px;
+}
+
+.footer-posts {
+	display: inline-block;
+	width: 100%;
+}
+
+.post-1 {
+	display: inline-block;
+	background-image: url(assets/images/article-image-1.jpg);
+	width: 24.5%;
+	height: 40vh;
+	background-size: cover;
+}
+
+.post-2 {
+	display: inline-block;
+	background-image: url(assets/images/article-image-2.jpg);
+	width: 24.5%;
+	height: 40vh;
+	background-size: cover;
+}
+
+.post-3 {
+	display: inline-block;
+	background-image: url(assets/images/article-image-3.jpg);
+	width: 24.5%;
+	height: 40vh;
+	background-size: cover;
+}
+
+.post-4 {
+	display: inline-block;
+	background-image: url(assets/images/article-image-4.jpg);
+	width: 24.5%;
+	height: 40vh;
+	background-size: cover;
+}
+
+
