@@ -3,3 +3,107 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+
+a {
+	color: rgb(162, 181, 193);
+}
+
+.container {
+	margin: 1px;
+}
+
+.header {
+	font-family: "Open Sans";
+	font-weight: 300;
+	height: 60vh;
+	width: 100%;
+	background-image: url(assets/images/header.jpg);
+	background-size: cover;
+	text-transform: uppercase;
+	position: relative;
+}
+
+.top {
+	position: relative;
+}
+
+.logo {
+	height: 45px;
+	vertical-align: top;
+	line-height: 45px;
+	text-align: center;
+	display: inline-block;
+	position: relative;
+	left: 100px;
+}
+
+.link-top {
+	display: inline-block;
+	height: 45px;
+	vertical-align: top;
+	line-height: 45px;
+	text-align: center;
+	position: absolute;
+	right: 100px;
+}
+
+.about {
+	display: inline-block;
+}
+
+.search {
+	display: inline-block;
+}
+
+.name {
+	font-size: 80px;
+	color: white;
+	text-align: center;
+	margin-top: 100px;
+}
+
+.description {
+	text-align: center;
+	margin-top: -20px;
+}
+
+/*Start of Body*/
+
+	/*Left*/
+
+.body {
+	font-family: "Open Sans";
+}
+
+.left {
+	width: 50%;
+	margin-left: 120px;
+}
+
+.title-name {
+	font-size: 40px;
+	text-transform: uppercase;
+}
+
+.author {
+	display: inline-block;
+	color: rgb(0, 96, 176);
+}
+
+.date {
+	display: inline-block;
+	color: rgb(162, 181, 193);
+}
+
+.text {
+	color: rgb(93, 105, 112);
+}
+
+.quote {
+	color: rgb(0, 96, 176);
+	font-size: 30px;
+	text-transform: uppercase;
+	border-left: solid 2px rgb(201, 201, 201);
+	padding-left: 10px;
+	margin: 20px 10px;
+}
