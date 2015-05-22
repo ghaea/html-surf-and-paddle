@@ -25,6 +25,7 @@ a {
 
 .top {
 	position: relative;
+	padding-top: 10px;
 }
 
 .logo {
@@ -35,6 +36,10 @@ a {
 	display: inline-block;
 	position: relative;
 	left: 100px;
+}
+
+.logo img {
+	padding-right: 13px;
 }
 
 .link-top {
@@ -49,17 +54,22 @@ a {
 
 .about {
 	display: inline-block;
+	padding-right: 10px;
 }
 
 .search {
 	display: inline-block;
 }
 
+.search img {
+	padding-left: 5px;
+	height: 13px
+}
 .name {
-	font-size: 80px;
+	font-size: 70px;
 	color: white;
 	text-align: center;
-	margin-top: 100px;
+	margin-top: 120px;
 }
 
 .description {
@@ -106,7 +116,7 @@ a {
 	color: rgb(162, 181, 193);
 }
 
-.text {
+.content {
 	color: rgb(93, 105, 112);
 }
 
@@ -121,6 +131,7 @@ a {
 
 .read {
 	display: inline-block;
+	margin-top: 15px;
 }
 
 .read-gray {
@@ -196,47 +207,93 @@ a {
 
 /*Footer*/
 
+.footer {
+	width: 100%;
+}
 
 .footer-header {
 	text-align: center;
 	font-size: 70px;
+	margin: 10px
 }
 
 .footer-posts {
 	display: inline-block;
 	width: 100%;
+	font-size: 0px;
+	position: relative;
+}
+
+
+.post {
+	display: inline-block;
+	width: 25%;
+	height: 40vh;
+	background-size: cover;
+	position: relative;
 }
 
 .post-1 {
-	display: inline-block;
 	background-image: url(assets/images/article-image-1.jpg);
-	width: 24.5%;
-	height: 40vh;
-	background-size: cover;
 }
 
 .post-2 {
-	display: inline-block;
 	background-image: url(assets/images/article-image-2.jpg);
-	width: 24.5%;
-	height: 40vh;
-	background-size: cover;
 }
 
 .post-3 {
-	display: inline-block;
 	background-image: url(assets/images/article-image-3.jpg);
-	width: 24.5%;
-	height: 40vh;
-	background-size: cover;
 }
 
 .post-4 {
-	display: inline-block;
 	background-image: url(assets/images/article-image-4.jpg);
-	width: 24.5%;
-	height: 40vh;
-	background-size: cover;
+}
+
+.text {
+	font-size: 26px;
+	color: rgb(7, 52, 82);
+}
+
+.text-beer {
+	font-size: 26px;
+	color: rgb(255, 255, 255);
+}
+
+.footer-footer {
+	display: inline-block;
+	width: 100%;
+	padding: 20px;
+	background: rgb(8, 52, 82);
+	color: rgb(173, 187, 198);
+	position: relative;
+}
+
+.ironyard {
+	display: inline-block;
+	line-height: 35px;
+	text-align: center;
+}
+
+.link-bottom {
+	display: inline-block;
+	position: absolute;
+	right: 10px;
+}
+
+.new-item-1 {
+	display: inline-block;
+}
+
+.new-item-2 {
+	display: inline-block;
+}
+
+.new-item-3 {
+	display: inline-block;
+}
+
+.new-item-5 {
+	display: inline-block;
 }
 
 
