@@ -11,10 +11,12 @@ a {
 .container {
 	margin: 1px;
 	font-family: "Open Sans";
+	-webkit-font-smoothing: antialiased;
 }
 
 .header {
 	font-weight: 300;
+	color: rgb(8, 52, 82);
 	height: 60vh;
 	width: 100%;
 	background-image: url(assets/images/header.jpg);
@@ -26,6 +28,7 @@ a {
 .top {
 	position: relative;
 	padding-top: 10px;
+	font-weight: bold;
 }
 
 .logo {
@@ -48,6 +51,7 @@ a {
 	vertical-align: top;
 	line-height: 45px;
 	text-align: center;
+	font-family: "Oswald";
 	position: absolute;
 	right: 100px;
 }
@@ -66,7 +70,7 @@ a {
 	height: 13px
 }
 .name {
-	font-size: 70px;
+	font-size: 80px;
 	color: white;
 	text-align: center;
 	margin-top: 120px;
@@ -75,6 +79,7 @@ a {
 .description {
 	text-align: center;
 	margin-top: -20px;
+	text-transform: none;
 }
 
 /*Start of Body*/
@@ -86,34 +91,47 @@ a {
 	/*Left*/
 
 .left {
-	width: 50%;
-	margin-left: 120px;
+	width: 60%;
 	display: inline-block;
-	padding: 60px 0px;
+	padding: 60px 20px 60px 120px;
+}
+
+.title {
+	font-family: "Oswald";
+	text-transform: uppercase;
+	color: rgb(8, 52, 82);
 }
 
 .title-name {
-	font-size: 45px;
-	text-transform: uppercase;
-	font-family: "Oswald";
+	font-size: 50px;
+	line-height: 50px;
+	margin-bottom: 5px;
 }
 
 .author {
 	display: inline-block;
 	color: rgb(0, 96, 176);
-	line-height: 40px;
+	height: 40px;
+	vertical-align: top:;
+	line-height: 30px;
 	text-align: center;
+	font-size: 12px;
+	margin-bottom: 30px;
 }
 
 .author img {
-	width: 40px;
+	width: 30px;
 	height: auto;
+	vertical-align: top;
+	padding-right: 5px;
 
 }
 
 .date {
 	display: inline-block;
 	color: rgb(162, 181, 193);
+	font-size: 12px;
+	margin-left: 10px;
 }
 
 .content {
@@ -125,83 +143,118 @@ a {
 	font-size: 30px;
 	text-transform: uppercase;
 	border-left: solid 2px rgb(201, 201, 201);
-	padding-left: 10px;
-	margin: 20px 10px;
+	padding: 5px 15px;
+	margin: 20px 20px;
 }
 
 .read {
 	display: inline-block;
-	margin-top: 15px;
+	margin-top: 20px;
+	height: 31px;
+	vertical-align: top;
+	color: rgb(249, 249, 249);
+	font-size: 0px;
+
 }
 
-.read-gray {
-	display: inline-block;
-	background: rgb(160, 179, 192);
-
-}
-
-.read-gray img {
+.read img {
 	background: rgb(92, 104, 111);
 	height: 31px;
 	width: auto;
 	padding: 8px;
+	vertical-align: top;
 }
 
-.read-blue {
+.gray {
+	display: inline-block;
+	background: rgb(160, 179, 192);
+	line-height: 31px;
+	font-size: 12px;
+	margin-right: 10px;
+	padding: 0px 15px;
+
+}
+
+.blue {
 	display: inline-block;
 	background: rgb(0, 105, 182);
+	line-height: 31px;
+	font-size: 12px;
+	padding: 0px 15px;
 }
 
-.read-blue img {
-	background: rgb(0, 50, 83);
-}
 
 	/*Right*/
 
 .right {
-	width: 30%;
+	width: 350px;
 	display: inline-block;
-	position: absolute;
-	right: 10px;
 	margin: 10px;
-	padding: 70px 10px;
-}
-
-.icon {
+	padding: 60px 50px;
 	text-align: center;
+	position: absolute;
+	right: 60px;
 }
 
 .author-name {
 	text-align: center;
+	font-size: 18px;
+	color: rgb(0, 96, 176);
+	margin-bottom: 5px;
 }
 
 .social-media {
 	text-align: center;
+	font-size: 14px;
+}
+
+.social-media a {
+	text-decoration: none;
 }
 
 .twitter {
 	display: inline-block;
+	border-right: solid 1px rgb(249, 249, 249);
+	padding: 0px 5px;
 }
 
 .facebook {
 	display: inline-block;
+	border-right: solid 1px rgb(249, 249, 249);
+	padding: 0px 5px;
 }
 
 .instagram {
 	display: inline-block;
+	padding: 0px 5px;
 }
 
-.ad-picture {
-	margin-top: 70px;
-	margin-bottom: 50px;
+.ad {
+	margin: 70px 0px;
+	width: 100%;
+	text-align: right;
+}
+
+.ad img {
+	text-align: center;
+	width: 100%;
+}
+
+.ad a {
+	text-align: right;
+	font-size: 12px;
 }
 
 .sidebar-heading {
-	font-size: 16px;
+	font-size: 18px;
+	color: rgb(0, 96, 176);
+	text-align: left;
 }
 
 .sidebar-text {
 	font-size: 12px;
+	text-align: left;
+	color: rgb(159, 176, 188);
 }
 
 
@@ -213,8 +266,8 @@ a {
 
 .footer-header {
 	text-align: center;
-	font-size: 70px;
-	margin: 10px
+	font-size: 60px;
+	margin: 20px
 }
 
 .footer-posts {
@@ -230,6 +283,7 @@ a {
 	width: 25%;
 	height: 40vh;
 	background-size: cover;
+	vertical-align: top;
 	position: relative;
 }
 
@@ -251,12 +305,33 @@ a {
 
 .text {
 	font-size: 26px;
-	color: rgb(7, 52, 82);
+	font-family: "Oswald";
+	line-height: 26px;
+	color: rgb(5, 46, 74);
+	text-transform: uppercase;
+	padding: 5px;
+	position: absolute;
+	bottom: 0px
 }
 
 .text-beer {
 	font-size: 26px;
 	color: rgb(255, 255, 255);
+}
+
+.layer {
+	height: 40vh;
+	width: 100%;
+	background-color: rgba(18, 91, 147, .8);
+	position: relative;
+}
+
+.layer:hover {
+	background: none;
+}
+
+.layer:hover .text {
+	color: rgb(249, 249, 249);
 }
 
 .footer-footer {
@@ -265,34 +340,52 @@ a {
 	padding: 20px;
 	background: rgb(8, 52, 82);
 	color: rgb(173, 187, 198);
+	font-size: 12px;
 	position: relative;
 }
 
 .ironyard {
 	display: inline-block;
+	vertical-align: top;
+	height: 35px;
 	line-height: 35px;
 	text-align: center;
+	margin-left: 10%;
+}
+
+.ironyard img {
+	padding-right: 5px;
 }
 
 .link-bottom {
 	display: inline-block;
+	padding-left: 5px;
+	height: 35px;
 	position: absolute;
-	right: 10px;
+	right: 10%;
 }
 
-.new-item-1 {
+.nav {
+	padding: 3px;
+	border-left: solid 1px color: rgb(173, 187, 198);
+	height: 35px;
+	line-height: 35px;
+	vertical-align: center;
+}
+
+.nav-item-1 {
 	display: inline-block;
 }
 
-.new-item-2 {
+.nav-item-2 {
 	display: inline-block;
 }
 
-.new-item-3 {
+.nav-item-3 {
 	display: inline-block;
 }
 
-.new-item-5 {
+.nav-item-5 {
 	display: inline-block;
 }
 
