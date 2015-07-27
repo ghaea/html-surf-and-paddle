@@ -1,6 +1,10 @@
 ## Layout - Surf and Paddle
 
-### Description
+### My Approach
+
+I started by putting all the content into the HTML.  With the CSS, I started with the header and worked my way down to get the basic spacing and colors in place.  Lastly, I worked on the details such as text padding and hover states.
+
+### Project Description/Instruction
 
 A tradition like no other. Surf and Paddle, on Thursday of Week 1.
 
